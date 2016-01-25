@@ -30,7 +30,7 @@ public class MemoryView {
 	/**
 	 * Miejsce na wpisanie imienia gracza.
 	 */
-	private JTextField playerNameInput = new JTextField(10);
+	private JTextField playerNameInput = new JTextField(20);
 	/**
 	 * Przycisk do rozpoczynania gry.
 	 */
@@ -236,12 +236,12 @@ public class MemoryView {
 	}
 
 	/**
-	 * Wyœwietla otrzyman¹ wiadomoœæ informacyjn¹ ( w mojej grze otrzymuje tylko treœc tablicy wyników
-	 * dlatego nazwa okna jest sta³a "Scoreboard").
+	 * Wyœwietla otrzyman¹ wiadomoœæ informacyjn¹ ( w mojej grze otrzymuje tylko treœæ tablicy wyników
+	 * b¹dŸ wynik aktualnie zakoñczonej rozgrywki dlatego nazwa okna jest sta³a "Score").
 	 * @param message  Wiadomoœæ wyœwietlana w oknie.
 	 */
 	public void showMessageWindow(String message) {
-		JOptionPane.showMessageDialog(window, message, "Scoreboard", JOptionPane.INFORMATION_MESSAGE);
+		JOptionPane.showMessageDialog(window, message, "Score", JOptionPane.INFORMATION_MESSAGE);
 	}
 	
 }

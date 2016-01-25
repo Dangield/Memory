@@ -39,9 +39,9 @@ public class MemoryController {
 		model.resetScore();
 		view.setScoreLabel(0);
 		view.changePanelToGame(true);
-		model.setIconsPosition(view.getPossibleIcons());
+		model.setCurrentlyUsedIcons(view.getPossibleIcons());
 		view.resetButtonsIcons();
-		model.setAmountOfCardsLeft();
+		model.resetAmountOfCardsLeft();
 	}
 	
 	/**
