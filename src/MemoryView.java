@@ -30,7 +30,7 @@ public class MemoryView {
 	/**
 	 * Miejsce na wpisanie imienia gracza.
 	 */
-	private JTextField playerNameInput = new JTextField(20);
+	private JTextField playerNameInput = new JTextField(10);
 	/**
 	 * Przycisk do rozpoczynania gry.
 	 */
