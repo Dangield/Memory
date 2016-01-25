@@ -1,9 +1,12 @@
 Daniel 34
+Testman 32
 Kinga 32
+Daniel 30
 GG 30
 AnonymousPlayer 30
 Milena 30
 Kongield 30
+Testman 28
 Kinga 26
 nigga 26
 pawel 24
@@ -13,3 +16,4 @@ marek 22
 D 16
 nigga 8
 Kinga 2
+Testman -14
