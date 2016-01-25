@@ -29,7 +29,7 @@ public class MemoryModel {
 		return amountOfCardsLeft;
 	}
 	
-	public void decrementNumberOfCardsLeft() {
+	public void decrementAmountOfCardsLeft() {
 		amountOfCardsLeft-=2;
 	}
 	
