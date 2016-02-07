@@ -91,7 +91,6 @@ public class MemoryController {
 			view.setScoreLabel(model.getScore());
 			model.setFirstCardSelected(false);
 			if(model.getAmountOfCardsLeft()==0){
-//			if(model.noCardsLeft()){
 				view.changePanelToGame(false);
 				view.showMessageWindow("Player " + view.getPlayerNameInput() + " scored " + model.getScore() + " points.\n");
 				model.writeToScoreboard(view.getPlayerNameInput());
